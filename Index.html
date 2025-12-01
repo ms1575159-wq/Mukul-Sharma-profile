@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mukul Profile</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+      <style>
+.navBody{
+            background-color: #e9dbdb ;
+            color: rgb(218, 117, 117);
+           
+        }
+.nav-link
+        {
+            color: rgb(255, 255, 255);
+        }
+.contact_button
+        {
+            border-radius: 50px;
+            background: rgb(141, 51, 51);
+        }
+body {
+                font-family: "Quicksand", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 500;
+                font-style: normal;
+                color: #12101f;
+                overflow-x: hidden;
+  
+        }
+
+.head
+        {
+            /* background-image: linear-gradient(to right ,#093637,#093637, #44A08D ) */
+             background-color: #ffffff;
+        }
+.mine
+        {
+           
+        }
+.name
+        {
+            color: #0e4646;
+            font-size: 70px;
+            font-family: "Quicksand", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 800;
+            font-style: normal;
+            line-height: .9;
+
+        }
+.name3
+        {
+                    color: #108f94;
+                    font-size: 30px;
+                    font-family: "Quicksand", sans-serif;
+                    font-optical-sizing: auto;
+                    font-weight: 800;
+                    font-style: calibri;
+                    line-height: .9; 
+        }
+.myname
+        {
+             color: #0c176e;
+            /* font-size: 70px; */
+            font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+            margin-left: 10px;
+  font-style: normal;
+
+        }
+.name2
+        {
+        color: #98A1B7;
+          font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+
+        }
+.highlight
+        {
+            color: #cf1919;
+        }
+.gold
+       {
+       
+        font-size: 40px;
+       }
+.subgold
+       {
+        color: rgb(175, 39, 39);
+       }
+.skillshow
+       {
+        /* color: #FE9543; */
+        background-color: #2c1a03;
+        padding: 2px 10px 2px 10px;
+        border-radius: 0px;
+        color: #2332a0;
+        font-weight: 600;
+         transition: transform .3s ease-in-out ,background-color .3s ease-in-out,box-shadow 0.3s ease;
+       }
+       
+.skillshow:hover .iconclass
+        {
+        color: rgb(168, 95, 95);
+        }
+.skillshow:hover
+        {
+            background-color: #f77474;
+            color: rgb(248, 245, 245);
+           
+            transform: translateY(-10px);
+    box-shadow: 0px 12px 25px rgba(0,0,0,0.18);
+        }
+.iconclass
+        {
+            color: #685d54;
+        }
+
+.skills
+       {
+        background-color: #7ed2e9; 
+
+             background: #020808;
+        background: radial-gradient(circle, rgb(246, 253, 248) 23%, rgb(236, 236, 248) 100%); 
+        background-color:#121213;
+        padding-top: 50px;
+       }
+.skill-card
+       {
+        background-color: white;
+        border: none;
+        color: black;
+         transition: transform 0.3s ease, box-shadow 0.3s ease;
+       }
+.skill-card:hover
+       {
+           transform: translateY(-8px) ;
+    box-shadow: 0px 12px 25px rgba(0,0,0,0.18);
+       }
+.work-card
+       {
+            background-color:#F1F5F6;
+            border: none;
+            color: black;
+            transition:transform .3s ease-in-out, box-shadow .3s ease-in-out;
+       }
+.about
+       {
+        padding-top: 50px;
+        padding-bottom: 50px;
+       }
+.bottom
+        {
+            background-image: linear-gradient(to right ,#44A08D,#72e9eb, #72d1d3 )
+
+        }
+.inputt
+       {
+        background-color:#44A08D;
+       }
+.hero-image
+       {
+            max-width: 100%;      
+            width: 800px;         
+            height: auto;         
+            animation: fade-in .5s linear ;
+        }
+
+.link
+    {
+        color: #181D43;
+        font-weight: 600;
+        margin-right: 20px;
+        border-radius: 10px;
+        /* sbackground-color: black; */
+    }
+.link:hover
+    {
+        background-color: #F1F5F6;
+        color: black;
+    }
+.logo
+    {
+       
+    }
+.contact-btn
+    {
+        color: white;
+        font-weight: 600;
+        margin-right: 20px;
+        border-radius: 10px;
+         background-color: #FE9543;
+    }
+.normal-text
+    {
+        font-size: 20px;
+   
+    }
+.tittle-head
+    {
+        font-size: 30px; font-weight: 700; color: #181D43;
+    }
+.autosize
+    {
+        font-size: clamp(10px,1.4vw,15px);
+    }
+.visit_button
+    {
+        background-color: black;
+        color: white;
+        border-radius: 0;
+    }
+.visit_button:hover
+    {
+        background-color: #FE9543;
+        color: rgb(255, 0, 0);   
+    }
+.card-name
+    {
+        font-weight: 600;
+       
+    }
+.card-info
+    {
+        background-color: #be8558;
+        border-radius: 10px;
+    }
+.icon {
+    font-size: 25px;
+    color: #181D43;
+    display: inline-block; 
+    transition: color 0.3s ease-in-out, transform .3s ease-in-out; /* add "s" */
+    
+    }
+.icon:hover {
+    color: #910018;
+    transform: scale(1.3);
+}
+
+
+/* VISIT ICON  */
+.visitbox
+{
+    position: relative;
+}
+.visit_icon {
+    position: absolute;
+    top: -10px;
+    right: 7px;
+    background-color:#291322;
+    border-radius: 7px;
+    padding: 5px 7px;
+    color: white !important;
+    text-decoration: none;
+    animation: shake 0.6s infinite ease-in-out;
+    transition: padding 0.2s ease, background-color 0.2s ease;
+    display: inline-block;
+}
+
+.visit_icon:hover {
+    /* background-color:#FE9543; */
+    padding:  8px 10px 8px 10px; /*  Hover par padding increase */
+}
+
+@keyframes shake {
+     0% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+  100% { transform: translateY(0); }
+}
+.visit_icon a {
+    text-decoration: none;
+    color: white;
+}
+
+.collegeicon
+{
+    background-color: #FE9543;
+}
+
+
+
+
+
+.bounce_icon
+{
+    display: inline-block; 
+    animation: float 1.8s infinite ease-in-out;
+}
+@keyframes float
+{
+    0%{transform: translateY(0);}
+    50%{transform:translateY(10px)}
+    100%{transform: translateY(0);}
+}
+
+.location-icon
+{
+    animation: location 2s infinite ease-in-out;
+}
+@keyframes location
+{
+    0%{transform: translateY(0x);}
+    50%{transform: translateY(-5px);}
+    100%{transform: translateY(0x);}
+}
+
+
+
+.other_card
+{
+    transition: transform .3s ease-in-out,box-shadow 0.3s ease;;
+    
+    
+}
+
+.other_card:hover
+{
+    transform: translateY(-10px);
+    box-shadow: 0px 12px 25px rgba(0,0,0,0.18);
+}
+.botton_icon
+{
+    display: inline-block; 
+      animation: botton_iconanimate 1.5s infinite ease-in-out;
+}
+
+@keyframes botton_iconanimate
+{
+    0%{transform: translateY(0px);}
+    50%{transform: translateY(-7px);}
+    100%{transform: translateY(0px);}
+}
+.other_box {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+    overflow: hidden;
+    border-radius: 20px;
+    transition: box-shadow 0.3s ease;;
+}
+.other_box:hover
+{
+ 
+     box-shadow: 0px 12px 25px rgba(0,0,0,0.18);
+}
+
+
+.other_box img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.4s ease-in-out;
+}
+
+.other_box:hover img {
+    transform: scale(1.12);
+}
+
+
+.inner_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    color: white;
+    opacity: 0;
+    background-color: rgba(9, 54, 55, 0); 
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+}
+
+.other_box:hover .inner_text {
+    opacity: 1;
+    background-color: rgba(9, 54, 55, 0.5);
+}
+
+
+.inner_text p {
+    font-size: 70%;
+    padding: 0 5%;
+}
+
+.inner_text h3 {
+    font-size: 100%;
+    font-weight: 700;
+}
+
+
+.my_button {
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+
+.visit_button2
+{
+    border-radius: 8px; 
+    background-color: #F1F5F6;
+    color: black;
+    transition: transform .3s ease-in-out ,background-color .3s ease-in-out,box-shadow 0.3s ease;
+}
+.visit_button2:hover
+{
+    transform: translateY(-5px);
+    background-color: #8a0e0e;
+    color: white;
+    box-shadow: 0px 12px 25px rgba(0,0,0,0.18);
+}
+
+.visit_button_web
+{
+    position: absolute;
+}
+
+
+
+
+
+.other_box2 {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+    overflow: hidden;
+    /* border-radius: 20px; */
+    transition: box-shadow 0.3s ease;;
+}
+
+
+.other_box2 {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+    overflow: hidden;
+    /* border-radius: 20px; */
+    transition: box-shadow 0.3s ease;;
+}
+.work-card:hover
+{
+    transform: translateY(-10px);
+     box-shadow: 0px 12px 25px rgba(0,0,0,0.18);
+}
+
+
+.other_box2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.4s ease-in-out;
+}
+
+.work-card:hover img {
+    transform: scale(1.12);
+}
+
+
+.inner_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    color: white;
+    opacity: 0;
+    background-color: rgba(9, 54, 55, 0); 
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+}
+
+.work-card:hover .inner_text {
+    opacity: 1;
+    background-color: rgba(9, 54, 55, 0.733);
+}
+
+
+.inner_text p {
+    font-size: 70%;
+    padding: 0 5%;
+}
+
+.inner_text h3 {
+    font-size: 100%;
+    font-weight: 700;
+}
+.support_text
+{
+    width: 50vw;
+    margin-bottom: 100px;
+}
+
+.row
+{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 25%;
+}
+@keyframes appear
+{
+    from{opacity: 0; scale: .5;}
+    to{opacity: 1;scale: 1;}
+}
+@keyframes fade-in
+{
+    0%{opacity: 0;}
+    50%{opacity: .5;}
+    100%{opacity: 1;}
+}
+
+
+
+
+
+
+
+
+    
+        @media(max-width: 2500px)
+        {
+            .name
+            {
+                font-size: 90px;
+            }
+              .name3{font-size: 70px;}
+        }
+
+        @media(max-width: 1570px)
+        {
+            .name
+            {
+                font-size: 75px;
+            }
+            /* .name3{font-size: px;} */
+            .myname
+            {
+                font-size: 20px;
+            }
+        }
+           @media(max-width: 1335px)
+        {
+            .name
+            {
+                font-size: 60px;
+            }
+            .name3{font-size: 50px;}
+        }
+           @media(max-width: 1060px)
+        {
+            .name
+            {
+                font-size: 40px;
+            }
+            .tittle-head{font-size: 20px;}
+            .name3{font-size: 40px;}
+            .myname{font-size: 15px;}
+        }
+            @media(max-width: 768px)
+        {
+            .name
+            {
+                font-size: 45px;
+                text-align: center;
+                
+            }
+            .name3{font-size: 35px;}
+            .name2{text-align: center;}
+            .support_text{width: 80vw;}
+            .bg
+            {
+                background-color: rgb(255, 255, 255);
+                padding: 30px 15px 30px 15px;
+            }
+            .bg2{background-color: #F1F5F6;padding: 0px;margin: 0px;margin-bottom: 30px;}
+            .myname
+            {
+                text-align: center;
+            }
+            .logo{text-align: center;}
+        }
+
+
+
+
+
+
+
+    </style>
+</head>
+
+<body>
+
+<div class="head" >
+    <div class="" >
+        <nav class="navbar navbar-expand-lg navBody">
+            <div class="container-fluid">
+                <a href="#"></a>MUKUL SHARMA
+                
+                </a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navOptions">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="navbar-nav collapse navbar-collapse justify-content-end" id="navOptions">
+                    <a  href="#" class="nav-link link ">HOME</a>
+                    <a href="#about" class="nav-link link ">ABOUT</a>
+                    <a href="#skills" class="nav-link link ">SKILLS</a>
+                    <a href="#project" class="nav-link link ">PROJECT</a>
+                    <a href="#more" class="nav-link link ">MORE</a>
+                    <a href="#contact" class="nav-link link ">CONTACT</a>   
+                </div>
+                <!-- <button class="btn contact_button">CONTACT</button> -->
+            </div>
+        </nav>
+    </div>
+</nav>
+
+<!--HeaderImage-->
+
+<div class=" container-fluid pt-5">
+    <div class="row  align-items-center">
+       
+       
+         <div class="col-md-6 col-lg-6 col-sm-12 ">
+            <img src="https://t4.ftcdn.net/jpg/09/10/00/23/240_F_910002399_q1J8fjgN5umU0hvLy7bBthvktosHjIXc.jpg" class="img-fluid  hero-image" >
+        </div>
+         <div class="col-md-6 col-lg-6 col-sm-12 bg">
+
+          <h4 class="myname">HI, I AM EXPERIENCED IN</h4>
+           <p class="name">
+            <span class="highlight">->EDITING</span><br>
+            <span class="highlight">->CODING</span><br>->DESIGNING</p>
+            <p class="name2  ">
+             MY GOAL IS TO CREATE DIGITAL EXPERIENCES THAT LOOK GREAT AND FEEL EVEN BETTER TO USE FOR MY KNOWLEDGE..
+            </p>
+            <div class="logo">
+               <a href="https://www.instagram.com/mukul_2115/?igsh=bHFrdHdvaW93eWs%3D#"><i class="fa-brands fa-instagram icon bounce_icon"></i></a>
+               <a href="https://wa.me/919460866095?text=Hello%20Mukul!"><i class="fa-brands fa-whatsapp icon bounce_icon"></i></a>
+                <a href="https://www.facebook.com/share/1BWirw2DvA/"><i class="fa-brands fa-facebook icon bounce_icon"></i></a>
+                <a href="https://www.linkedin.com/in/mukul-sharma-69477239a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BkhEZ0XDSTKuCIS2ITqfxQQ%3D%3D"><i class="fa-brands  fa-square-linkedin icon bounce_icon"></i></a>
+                <a href=""><i class="fa-brands fa-github icon bounce_icon"></i></a>
+            </div>
+            </div>
+    </div>
+</div>
+</div>
+
+<!-- About Section -->
+ <div class="ps-5 pe-5 container-fluid about" id="about">
+   <div class="row">
+  <div class="col-md-6 col-lg-5 col-sm-12 text-center bg2">
+    <img src="https://w0.peakpx.com/wallpaper/404/760/HD-wallpaper-musashi-manga-rohan-vagabond-thumbnail.jpg" class="img-fluid" style="width: 670px;  height: 679px;">
+  </div>
+
+    <div class="col-md-6 col-lg-7 col-sm-12">
+        <label class="tittle-head">->ABOUT</label>
+ <h2 class="name3 pb-3 mb-5">I'M MUKUL SHARMA</h2>
+    <p class="normal-text">
+       I am doing editing for video and photos & I am from Star info tech college BCA (1st year). 
+       I have been learning and improving WEB DESIGNING SKILLS & CODING Skills for the past 3 years,
+        and during this journey, I’ve created and uploaded My edited video in my profile  
+         I enjoy to create videos edit and coding creative, and engaging, and I
+          constantly explore new ideas to make every project unique.
+    </p>
+    <p class="normal-text" style="margin-bottom: 100px;">
+     Along with My editing skills, I also work on JS for creating mods for games in my past live ,And resently i am just doing edit picturs & try to animated a video by my own ...
+    </p>
+
+
+
+
+    <div class="p-3 mt-5" style="background-color: #F1F5F6;" >
+        <i class="fa-solid fa-location-dot location-icon" style="color: #181D43;"></i>
+        <label style="font-weight: 600; color: #181D43;">->AJMER, RAJASTHAN, INDIA</label>
+    </div>
+
+
+
+
+    
+    </div>
+   </div>
+ </div>
+
+<!-- CARDS -->
+ <div class="container-fluid" style="background-color: #eea5c757;padding: 40px 0px 40px 0px; " id="skills">
+          <h1 class="text-center tittle-head" style="margin-bottom: 40px; margin-top: 70px;">->WELL MY SKILLS IN </h1>
+          <div class="text-center mx-auto support_text">
+</div>
+    <div class="row d-flex" style="padding: 0 5% 0 5%;">
+        <div class="col-md-6 col-lg-3 col-sm-12 ">
+                <div class="text-center  mb-3  other_card mx-auto" style="background-color: #cfb9ec; max-width: 400px;border-radius: 20px; padding: 40px 50px 40px 30px;">
+                    <i class="fa-brands fa-node-js fa-2x bounce_icon fa-3x" style="color: #040b69;"></i></i><br/>
+                    <label class="mb-3"  style="font-weight: 600;">JAVA SCRIPT</label><br/>
+                    <label style="">JS HELPS FOR DEVELOPING GAMES & Website</label>
+                    
+                </div>
+        </div>    
+        
+         <div class="col-md-6 col-lg-3 col-sm-12 ">    
+                  <div class="text-center mx-auto mb-3 visitbox other_card" style="background-color: #49423aa8; max-width: 400px;border-radius: 20px; padding: 40px 50px 40px 50px;">
+                   <i class="fa-brands fa-css3 fa-2x fa-3x bounce_icon " style="color: #12024d;"></i></i><br/>
+                    <label class="mb-3" style="font-weight: 600;">CSS</label><br/>
+                    <label style="">RESENTLY I AM CREATING PROFILE WITH THE HELP OF CSS.</label>
+                   
+                   
+                </div>
+        </div>
+
+
+
+
+        <div class="col-md-6 col-lg-3 col-sm-12 ">    
+                  <div class="text-center mx-auto mb-3 other_card" style="background-color: #217a7a; max-width: 400px;border-radius: 20px; padding: 40px 50px 40px 50px;">
+                    <i class="fa-brands fa-html5 fa-3x fa-2x bounce_icon"style="color: #12024d;"></i></i><br/>
+                    <label class="mb-3"  style="font-weight: 600;">HTML</label><br/>
+                    <label style="">RESENTLY I AM CREATING PROFILE WITH THE HELP OF HTML.
+                    </label>
+                </div>
+        </div>
+
+
+
+        <div class="col-md-6 col-lg-3 col-sm-12 ">    
+                  <div class="text-center mx-auto mb-3 other_card" style="background-color: #39e1e7; max-width: 400px;border-radius: 20px; padding: 40px 50px 40px 50px;">
+                    <i class="fa-solid fa-gamepad fa-2x bounce_icon fa-3x"style="color: #12024d;"></i></i><br/>
+                    <label class="mb-3"  style="font-weight: 600;">GAMING</label><br/>
+                    <label style="">I'VE BEEN PLAYING GAMES SINCE WHEN I WAS 4 YEAR OLD. <br/>
+                    </label>
+                     
+                </div>
+        </div>
+
+
+        
+         
+        
+    </div><br/><br/>
+</div>
+
+
+
+
+    
+
+
+<!-- MY PROJECTES -->
+
+<div class="container-fluid about ps-5 pe-5" id="project">
+    <h2 class="text-center tittle-head mb-5">->MY PROJECTS</h2>
+      <div class="text-center mx-auto support_text" >
+                Here my edit video that I’ve created — each built with uniquness,
+                fast-paced action to creative designs, every reflects my passion for experimenting with new concepts.</div>
+    <div class="row "> 
+
+        <!-- Card 1 -->
+        <div class="col-md-4 col-lg-3 col-sm-12 d-flex " >     
+            <div class="card text-center mb-3 work-card w-100" style="width: 18rem;">
+                <div class="card-body" style="text-align: left;">
+                   
+                    <div class="other_box2" ">
+                
+                    <img clas="img-fluid"src="work1.png" alt="">
+                    <div class="inner_text text-center">
+                      
+                        <p><a href=""><button class="btn visit_button2" style=" width: 60%;"></button></a></p>
+                       
+                    </div>
+                 <!-- <h4 class="card-title">CLIENT ECOMMERCE STORE</h4> -->
+               </div>
+
+               
+                <h4 class="card-title" style="text-align: left; ">IT'S ANIME EDITED PROJECT --></h4>
+                <p style="text-align: left;" >
+                        I delivered my edit vide that you display. 
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+
+      <div class="col-md-6 col-lg-3 col-sm-12 ">    
+                  <div class="text-center mx-auto mb-3 other_card" style="background-color: #70ad9bcb; max-width: 400px;border-radius: 20px; padding: 40px 50px 40px 50px;">
+                    <i class="fa-brands fa-youtube fa-3x fa-2x bounce_icon"style="color: #12024d;"></i></i><br/>
+                    <label class="mb-3"  style="font-weight: 600;">FIRST EDITED</label><br/>
+                    <label style="">This edited was hard for me but I done. <br/>
+                    </label>
+                     <div >
+                      <a href="https://youtu.be/FN6FAVbW-Aw"><i class="fa-solid fa-arrow-up-right-from-square bounce_icon"></i></a>
+                    </div>
+                </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 col-sm-12 ">    
+                  <div class="text-center mx-auto mb-3 other_card" style="background-color: #ebe4b9; max-width: 400px;border-radius: 20px; padding: 40px 50px 40px 50px;">
+                    <i class="fa-brands fa-youtube fa-3x fa-2x bounce_icon"style="color:#12024d"></i></i><br/>
+                    <label class="mb-3"  style="font-weight: 600;">SECOND EDITED</label><br/>
+                    <label style="">This video was easy for me Because its simple to edited <br/>
+                    </label>
+                     <div >
+                      <a href="https://youtube.com/shorts/OPDbIhmc4Ms"><i class="fa-solid fa-arrow-up-right-from-square bounce_icon"></i></a>
+                    </div>
+                </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 col-sm-12 ">    
+                  <div class="text-center mx-auto mb-3 other_card" style="background-color: #eb8bdeb7; max-width: 400px;border-radius: 20px; padding: 40px 50px 40px 50px;">
+                    <i class="fa-brands fa-youtube fa-3x fa-2x bounce_icon"style="color:#12024d"></i></i><br/>
+                    <label class="mb-3"  style="font-weight: 600;">THIRED EDITED</label><br/>
+                    <label style="">This video edit also easy for me because its simple <br/>
+                    </label>
+                     <div >
+                      <a href="https://youtube.com/shorts/90ApnoSiT3Y"><i class="fa-solid fa-arrow-up-right-from-square bounce_icon"></i></a>
+                    </div>
+                </div>
+        </div>
+
+
+
+        
+
+
+
+
+      
+       
+
+    </div>
+</div>
+
+
+<div class="container-fluid" style="background-color: #8cb3bd48;padding: 40px 0px 40px 0px; " id="more">
+          <h1 class="text-center tittle-head" style="margin-bottom: 40px; margin-top: 70px;">->MORE ABOUT ME</h1>
+          <div class="text-center mx-auto support_text">
+                In this section, you’ll get a closer look at who I am beyond my work — my school and college
+                 journey, the experiences that shaped me, my hobbies, and the interests that inspire my creativity.
+                  It’s a small glimpse into the person behind the projects.</div>
+    <div class="row d-flex" style="padding: 0 5% 0 5%;">
+        <div class="col-md-6 col-lg-3 col-sm-12 ">
+                <div class="text-center  mb-3  other_card mx-auto" style="background-color: #dbd4e4; max-width: 400px;border-radius: 20px; padding: 40px 50px 40px 30px;">
+                    <i class="fa-solid fa-school fa-3x fa-1x bounce_icon" style="color: #720e0788;"></i></i><br/>
+                    <label class="mb-3 "  style="font-weight: 600;">SCHOOLING </label><br/>
+                    <label style="">10th & 12th From Gujrati English Medium School.</label>
+                    <div>
+                        <a href="https://schools.org.in/ajmer/08211503304/gujrati-sr-sec-school-kuchery-road.html"><i class="fa-solid fa-arrow-up-right-from-square bounce_icon"></i></a>
+                    </div>
+                </div>
+        </div>    
+        
+         <div class="col-md-6 col-lg-3 col-sm-12 ">    
+                  <div class="text-center mx-auto mb-3 visitbox other_card" style="background-color: #e0cfbc; max-width: 400px;border-radius: 20px; padding: 40px 50px 40px 50px;">
+                   <i class="fa-solid fa-graduation-cap fa-3x bounce_icon" style="color: #4d4c02;"></i></i><br/>
+                    <label class="mb-3" style="font-weight: 600;">COLLEGE</label><br/>
+                    <label style="">Star Infotech College, Gaurav Path, Mali Mohalla, Ajmer, Rajasthan.</label>
+                    <div>
+                      <a href="https://starinfotechcollege.com/"><i class="fa-solid fa-arrow-up-right-from-square bounce_icon"></i></a>
+                    </div>
+                   
+                </div>
+        </div>
+
+
+
+
+        <div class="col-md-6 col-lg-3 col-sm-12 ">    
+                  <div class="text-center mx-auto mb-3 other_card" style="background-color: #608888; max-width: 400px;border-radius: 20px; padding: 40px 50px 40px 50px;">
+                    <i class="fa-brands fa-medapps fa-3x bounce_icon"style="color: #12024d;"></i></i><br/>
+                    <label class="mb-3"  style="font-weight: 600;">HOBBY</label><br/>
+                    <label style="">1. I enjoy to edited videos and photos.<br/><br/>
+                                    2. I like reading mangas.<br/>
+                    </label>
+                </div>
+        </div>
+
+
+
+        <div class="col-md-6 col-lg-3 col-sm-12 ">    
+                  <div class="text-center mx-auto mb-3 other_card" style="background-color: #b9e9eb; max-width: 400px;border-radius: 20px; padding: 40px 50px 40px 50px;">
+                    <i class="fa-solid fa-manat-sign fa-3x bounce_icon"style="color: #12024d;"></i></i><br/>
+                    <label class="mb-3"  style="font-weight: 600;">Mangas.</label><br/>
+                    <label style="">Well this link provides you read to manga. <br/>
+                    </label>
+                     <div >
+                      <a href="https://mangapark.io/"><i class="fa-solid fa-arrow-up-right-from-square bounce_icon"></i></a>
+                    </div>
+                </div>
+        </div>
+
+
+        
+         
+        
+    </div><br/><br/>
+</div>
+
+
+
+
+<!-- CONTACT ME -->
+
+ <div class="container-fluid pt-3 mt-5" id="contact">
+    <h1 class="text-center tittle-head">->LET'S WORK TOGETHER</h1>
+    <div class="text-center mx-auto support_text" >
+        I’M ALWAYS OPEN TO NEW OPPORTUNITIES AND EXCITING PROJECTS. 
+        FOR EDITING VIDEOS AND PHOTOS & CREATING JS(java script) MODES GAMES FILE FOR GAMERS  <br/><br/><br/><br/><br/>
+       
+
+        <a href="https://www.instagram.com/mukul_2115?igsh=bHFrdHdvaW93eWs%3D#"><button class="btn visit_button2 mt-4 me-4 " ><i class="fa-brands fa-instagram "></i> INSTAGRAM</button></a>
+        <a href="https://www.facebook.com/share/1BWirw2DvA/"><button class="btn visit_button2 mt-4 me-4"><i class="fa-brands fa-facebook "></i> FACEBOOK</button></a>
+        <a href="https://wa.me/919460866095?text=Hello%20Mukul!"><button class="btn visit_button2 mt-4 me-4"><i class="fa-brands fa-whatsapp "></i> WHATSAPP</button></a>
+       
+       <br/><br/>
+        
+</body>
+</html>
